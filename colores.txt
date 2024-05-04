@@ -1,0 +1,40 @@
+color: #0f4939;
+color: #205742;
+color: #407555;
+color: #6ba36f;
+color: #a7df97;
+
+color: #535bf2
+  color: #646cff;
+  color: #747bff;
+  color: #61dafbaa;
+  color: #213547;
+  color: #242424
+  color: #f9f9f9;
+  color: #2169f3
+  color: #4285f4      // Azul de Google
+  color: #fbbc05      // Amarillo de Google
+  color: #ea4335      // 
+  color: #34a853      // 
+  color: #f9d1fe     // 
+
+
+
+  Google:       #4285f4   // Azul de Google
+  Google:       #fbbc05   // Amarillo de Google
+  Facebook:     #1877F2   // Azul de Facebook
+  Twitter:      #1DA1F2   // Azul de Twitter
+  Instagram:    #E4405F   // Rojo de Instagram
+  Github:       #181717   // Negro de Github
+  Whatsapp:     #25D366   // Verde de Whatsapp
+
+
+
+************* BreakPoints *************
+
+@media all and (min-width: 480px) and (max-width: 767px) {
+}
+@media all and (min-width: 768px) and (max-width: 959px) {
+}
+@media all and (min-width: 960px) and (max-width: 1199px) {
+}
