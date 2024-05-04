@@ -320,3 +320,16 @@ input:checked {
     margin: auto;
   }
 }
+
+@media all and (min-width: 1200px) {
+  .nav-list {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+  }
+
+  .form {
+    width: 50%;
+    margin: auto;
+  }
+}
