@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "Domegal13",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "zod": "^3.23.6"
+  }
 }
