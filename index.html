@@ -41,7 +41,7 @@
       <div class="nav-icons">
         <a href="#"><i class="bx bx-search" title="search"></i></a>
         <a href="#"><i class="bx bx-cart" title="cart"></i></a>
-        <a href="#"><i class="bx bx-menu" title="cart"></i></a>
+        <a href="#"><i class="bx bx-menu menu" title="cart"></i></a>
       </div>
     </header>
     <main>
@@ -57,11 +57,13 @@
               name="name"
               required
               placeholder="  Andrew Collemans"
+              class="input-name"
             />
           </div>
-          <div class="contact-field email">
+          <div class="contact-field">
             <label for="email">Email:</label>
             <input
+              class="input-email"
               type="email"
               id="email"
               name="email"
@@ -77,6 +79,7 @@
               name="phone"
               required
               placeholder="  555-555555"
+              class="input-phone"
             />
           </div>
           <div class="contact-field">
@@ -98,7 +101,9 @@
               <option value="Plantas">Plantas</option>
             </select>
           </div>
-          <a href="#" class="btn-enviar" type="submit"> Enviar </a>
+          <a href="#">
+            <button class="btn-enviar" type="submit">Enviar</button>
+          </a>
         </form>
       </div>
     </main>
