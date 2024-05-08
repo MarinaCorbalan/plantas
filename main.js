@@ -12,9 +12,8 @@ menu.addEventListener("click", () => {
   navList.classList.toggle("open");
 });
 
-window.addEventListener("resize", function () {
+window.addEventListener("resize", () => {
   let windowWidth = window.innerWidth;
-
   if (windowWidth >= 480) {
     navList.classList.remove("open");
   }

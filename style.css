@@ -43,9 +43,14 @@ header.sticky {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 30%;
+  width: 20%;
   height: 100px;
   cursor: pointer;
+  transition: all 0.2s ease;
+}
+.logo:hover {
+  transform: scale(1.08);
+  transform-origin: left;
 }
 
 .logo-1 {
@@ -75,6 +80,7 @@ header.sticky {
   width: 40px;
   height: 30px;
 }
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -105,14 +111,20 @@ header.sticky {
 .nav-list li {
   padding: 10px;
 }
+
+.nav-list.open li:hover {
+  width: 100%;
+  background: #035303;
+  transform: scale(1.15);
+  transform-origin: left;
+}
 .nav-list a {
   color: var(--text-color);
   font-size: 0.8rem;
   padding: 5px;
+  transition: all 0.2s ease;
 }
-.nav-list.open li:hover {
-  width: 100%;
-  background: #035303;
+.nav-list a:hover {
   transform: scale(1.15);
   transform-origin: left;
 }
