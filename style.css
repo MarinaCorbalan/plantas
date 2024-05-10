@@ -93,6 +93,7 @@ header.sticky {
   width: 90%;
   justify-content: space-between;
   align-items: center;
+  transition: all 0.3s ease;
 }
 .nav-list.open {
   display: flex;
@@ -104,8 +105,9 @@ header.sticky {
   right: 2px;
   background: #407555;
   opacity: 0.8;
-  width: 30%;
+  width: 40%;
   height: 100vh;
+  transition: all 0.3s ease;
 }
 
 .nav-list li {
@@ -234,6 +236,10 @@ input:checked {
   border: 2px solid black;
   background: #1fb81f;
 }
+
+.cargarImagen {
+  margin-top: 15px;
+}
 .area {
   padding-top: 10px;
   padding-bottom: 5px;
@@ -294,13 +300,13 @@ input:checked {
   }
   .nav-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
   }
-  .nav-list.open {
-  }
+
   .nav-list li {
     display: flex;
     justify-content: center;
+    padding: 3px;
   }
   .nav-list a {
     /* padding-right: 1px; */
