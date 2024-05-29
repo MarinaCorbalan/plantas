@@ -1,0 +1,158 @@
+
+main {
+  padding: 180px 0px 0px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*div a {
+  margin-left: 1vh;
+}*/
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+}
+
+.seccion {
+  display: grid;
+  grid-template-rows: auto auto 1.5fr;
+  grid-template-areas:
+   "h2"
+   "img"
+   "p";
+   margin-bottom: 5%;
+}
+
+.seccion > img {
+  grid-area: img;
+}
+
+.seccion > .titulos {
+  grid-area: h2;
+}
+
+.seccion > .texto {
+  grid-area: p;
+}
+
+
+article img {
+  width: 100%;
+  border-radius: 5vh;
+  padding: 1vh;
+  margin: 1vh auto 1vh;
+}
+
+.saludo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 5vh auto;
+}
+
+.bienvenida {
+  width: 100%;
+}
+
+.titulo {
+  margin-bottom: 5vh;
+  text-align: center;
+}
+
+#contactanos {
+  display: flex;
+  align-items: end;
+}
+.titulos {
+  display: flex;
+  text-align: center;
+  background-color: rgb(217 217 217);
+  border-radius: 5vh;
+  height: 80%;
+  margin: 2vh 0;
+}
+
+.titulos h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+}
+
+.texto {
+  background-color: rgb(174 174 174);
+  border-radius: 5vh;
+  padding: 2vh;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-bottom: 5%;
+}
+
+
+.icono {
+  width: 5vh;
+  margin: 2vh;
+}
+
+.redes {
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  background-color: rgb(35, 99, 35);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2vh;
+
+}
+
+article p {
+  display: flex;
+  text-align: center;
+}
+
+@media (min-width: 480px) {
+
+.principal{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin :auto;
+}
+
+.seccion {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+}
+
+@media (min-width: 768px) {
+  .principal{
+    display: grid;
+
+    /*grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr;
+    */
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: 1fr;
+    margin :auto;
+    
+  }
+} 
