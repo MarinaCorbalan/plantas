@@ -3,36 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="Acebo.css" />
-    <link
-      rel="stylesheet"
-      crossorigin="anonymous"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-    />
+    <link rel="stylesheet" href="/CSS/Acebo.css" />
+    <link rel="stylesheet" href="/CSS/header2.css" />
     <title>Semillas Digitales</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
 
+
   <body>
+    <header>
+        
+      <div class="logo">
+        <a href="#" class="logo-1">
+          <!-- <i class="bx bx-home"></i> -->
+          <p>Semillas</p>
+
+          <!-- <img src="./img/logo-sd.png" alt="logo" class="logo-img" /> -->
+          <p>Digitales</p>
+        </a>
+      </div>
+
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="/index.html">Inicio</a></li>
+          <li><a href="/Html/submenu/PLANTAS.html"html>Plantas</a></li>
+          <li><a href="/Html/submenu/PLAGAS.html">Plagas</a></li>
+          <li><a href="/Html/form.html">Contactanos</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-icons">
+         <!-- <a href="#"><i class="bx bx-search" title="search"></i></a>
+        <a href="#"><i class="bx bx-cart" title="cart"></i></a>-->
+        <a href="#"><i class="bx bx-menu menu" title="cart"></i></a>
+      </div>
+    </header>
     <main>
-      <header>
-        <img class="logo" src="../imagenes2/Logo 2.jpeg"  alt="">
-        <nav class="menu-header">
 
-          <div id="menu2">
-            <a href="Index.html"><p>INICIO</p></a>
-            <a href="/PLANTAS.html"> <p>PLANTAS</p></a>
-            <a href="/submenu/PLAGAS.html"> <p>PLAGAS</p></a>
-          </div>
-
-          <div id="contactanos2">
-            <a href=""><p>CONTACTANOS</p></a>
-          </div>
-
-        </nav>
-      </header>
-
-      <h1>Caléndula (Calendula officinalis)</h1>
+      <h2>Caléndula (Calendula officinalis)</h2>
 
       <p>La caléndula es una planta herbácea perenne que cuenta con varios tallos erectos, 
       hojas oblongas y flores de color amarillo anaranjado. Su nombre científico 
@@ -43,15 +60,15 @@
       <nav class="menu-indice">
         <div class="titulo-indice">
           <h2>Indice</h2>
-          <img id="img2" class="imagen" src="../imagenesplantas/Caléndula1.jpg" alt="">
+          <img id="img2" class="imagen" src="/img/imagenesplantas/Caléndula1.jpg" alt="">
         </div>
         <ul>
-          <li><a class="indice" id="caracteristicas" href="#">Características Morfológicas</a></li>
-          <li><a class="indice" id="sustrato" href="#">Sustrato para Calendula</a></li>
-          <li><a class="indice" id="riego" href="#">Riego de la Calendula</a></li>
-          <li><a class="indice" id="poda" href="#">Poda de la Calendula</a></li>
-          <li><a class="indice" id="pais" href="#">Pais de origen</a></li>
-          <li><a class="indice" href="#">Curiosidades</a></li>
+          <li><a class="indice" id="caracteristicas" href="#caracteristicas-section">Características Morfológicas</a></li>
+          <li><a class="indice" id="sustrato" href="#sustrato-section">Sustrato para el Acebo</a></li>
+          <li><a class="indice" id="riego" href="#riego-section">Riego del acebo</a></li>
+          <li><a class="indice" id="poda" href="#poda-section">Poda del acebo</a></li>
+          <li><a class="indice" id="pais" href="#pais-section">Pais de origen</a></li>
+          <li><a class="indice" href="#pais-section">Curiosidades</a></li>
         </ul>
       </nav>
 
@@ -127,7 +144,7 @@
       <section id="pais-section">
         <h3 class="titulo">Pais de origen</h3>
 
-        <img class="imagen" src="../imagenesplantas/EuropaMap.png" alt="">
+        <img class="imagen" src="/img/imagenesplantas/EuropaMap.png" alt="">
         <div class="texto">
             <p>
               La caléndula (Calendula officinalis), también conocida como caléndula común o caléndula de jardín, es originaria de la región del Mediterráneo. 
@@ -140,16 +157,27 @@
 
 
       <footer>
-
-        <h3>informacion de pie de pagina</h3>
-        <a class="redes" href="icono">
-          <img class="icono" src="../imagenes2/facebook.png"" />
-          <p>Info Facebook</p>
-        </a>
-
+        <a class="redes" href="https://www.facebook.com/"
+          ><img class="icono" src="/img/Iconos Footer/facebook.png" alt=""
+        /></a>
+        <a class="redes" href="https://www.instagram.com/"
+          ><img class="icono" src="/img/Iconos Footer/instagram.png" alt=""
+        /></a>
+        <a class="redes" href="https://www.linkedin.com/"
+          ><img class="icono" src="/img/Iconos Footer/linkedin.png" alt=""
+        /></a>
+        <a class="redes" href="https://www.X.com/"
+          ><img class="icono" src="/img/Iconos Footer/X.png" alt=""
+        /></a>
+        <a class="redes" href="https://www.youtube.com/"
+          ><img class="icono" src="/img/Iconos Footer/youtube.png" alt=""
+        /></a>
+        <a class="redes" href="https://github.com/MarinaCorbalan/plantas"
+          ><img class="icono" src="/img/Iconos Footer/github.png" alt=""
+        /></a>
       </footer>
     </main>
-    <script>
+    <!-- <script>
       const menu = document.querySelectorAll(".indice") // devuelve una lista de elementos que contengan la clase .indice
       menu.forEach((el) => {
         el.addEventListener("click", (ev) => {
@@ -162,6 +190,7 @@
         })
       })
 
-    </script>
+    </script> -->
+    <script src="/JS/header.js"></script>
   </body>
 </html>
