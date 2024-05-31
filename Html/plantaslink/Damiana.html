@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/CSS/Acebo.css" />
-    <link rel="stylesheet" href="/CSS/header2.css" />
+    <link rel="stylesheet" href="../../CSS/Acebo.css" />
+    <link rel="stylesheet" href="../../CSS/header2.css" />
     <title>Semillas Digitales</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -33,10 +33,10 @@
 
       <nav class="nav">
         <ul class="nav-list">
-          <li><a href="/index.html">Inicio</a></li>
-          <li><a href="/Html/submenu/PLANTAS.html"html>Plantas</a></li>
-          <li><a href="/Html/submenu/PLAGAS.html">Plagas</a></li>
-          <li><a href="/Html/form.html">Contactanos</a></li>
+          <li><a href="../../index.html">Inicio</a></li>
+            <li><a href="../submenu/PLANTAS.html"html>Plantas</a></li>
+            <li><a href="/Html/submenu/PLAGAS.html">Plagas</a></li>
+            <li><a href="../form.html">Contactanos</a></li>
         </ul>
       </nav>
 
@@ -56,7 +56,7 @@
       <nav class="menu-indice">
         <div class="titulo-indice">
           <h2>Indice</h2>
-          <img id="img2" class="imagen" src="/img/imagenesplantas/Damiana2.jpg " alt="">
+          <img id="img2" class="imagen" src="../../img/imagenesplantas/Damiana2.jpg " alt="">
         </div>
         <ul>
           <li><a class="indice" id="caracteristicas" href="#caracteristicas-section">Características Morfológicas</a></li>
@@ -64,14 +64,13 @@
           <li><a class="indice" id="riego" href="#riego-section">Riego del acebo</a></li>
           <li><a class="indice" id="poda" href="#poda-section">Poda del acebo</a></li>
           <li><a class="indice" id="pais" href="#pais-section">Pais de origen</a></li>
-          <li><a class="indice" href="#pais-section">Curiosidades</a></li>
         </ul>
       </nav>
 
       <section id="caracteristicas-section">
         <h3 class="titulo">Características Morfológicas</h3>
 
-        <img class="imagen" src="/img/imagenesplantas/Damiana4.png" alt="">
+        <img class="imagen" src="../../img/imagenesplantas/Damiana4.png" alt="">
 
         <div class="texto">
           <p>Hojas:Las hojas de la damiana están dispuestas de manera alterna, son oblongas, son
@@ -128,7 +127,7 @@
       <section id="pais-section">
         <h3 class="titulo">Pais de origen</h3>
 
-        <img class="imagen" src="/img/imagenesplantas/mapadeamericacentral.png" alt="">
+        <img class="imagen" src="../../img/imagenesplantas/mapadeamericacentral.png" alt="">
         <div class="texto">
             <p>Es nativa de las regiones subtropicales de América, especialmente México, América Central, y el Caribe. Se encuentra 
               comúnmente en áreas áridas y semiáridas, a menudo en terrenos rocosos y arenosos.</p>
@@ -139,38 +138,25 @@
 
       <footer>
         <a class="redes" href="https://www.facebook.com/"
-          ><img class="icono" src="/img/Iconos Footer/facebook.png" alt=""
+          ><img class="icono" src="../../img/Iconos Footer/facebook.png" alt=""
         /></a>
         <a class="redes" href="https://www.instagram.com/"
-          ><img class="icono" src="/img/Iconos Footer/instagram.png" alt=""
+          ><img class="icono" src="../../img/Iconos Footer/instagram.png" alt=""
         /></a>
         <a class="redes" href="https://www.linkedin.com/"
-          ><img class="icono" src="/img/Iconos Footer/linkedin.png" alt=""
+          ><img class="icono" src="../../img/Iconos Footer/linkedin.png" alt=""
         /></a>
         <a class="redes" href="https://www.X.com/"
-          ><img class="icono" src="/img/Iconos Footer/X.png" alt=""
+          ><img class="icono" src="../../img/Iconos Footer/X.png" alt=""
         /></a>
         <a class="redes" href="https://www.youtube.com/"
-          ><img class="icono" src="/img/Iconos Footer/youtube.png" alt=""
+          ><img class="icono" src="../../img/Iconos Footer/youtube.png" alt=""
         /></a>
         <a class="redes" href="https://github.com/MarinaCorbalan/plantas"
-          ><img class="icono" src="/img/Iconos Footer/github.png" alt=""
+          ><img class="icono" src="../../img/Iconos Footer/github.png" alt=""
         /></a>
       </footer>
     </main>
-    <!-- <script>
-      const menu = document.querySelectorAll(".indice") // devuelve una lista de elementos que contengan la clase .indice
-      menu.forEach((el) => {
-        el.addEventListener("click", (ev) => {
-          ev.preventDefault()
-          const section = document.querySelector('#'+ev.target.id+'-section') // devuelve UN elemento con el ID indicado #caracteristicas-section 
-          section.scrollIntoView({
-            behavior: "smooth",
-            block: "center",
-          })
-        })
-      })
-
-    </script> -->
+    <script src="../../JS/header.js"></script>
   </body>
 </html>
