@@ -96,7 +96,7 @@ header.sticky {
   transition: all 0.3s ease;
 }
 .nav-list.open {
-  color:#fff;
+  color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -151,7 +151,6 @@ header.sticky {
   color: #fff;
 }
 .nav-icons a:hover {
-  
   transform: scale(1.2);
   transform-origin: center;
   transition: all 0.25s ease-in;
@@ -160,18 +159,21 @@ header.sticky {
 
 .nav-icons .bx-menu {
   font-size: 1.5rem;
-  /* display: none; */
 }
 
 /*? ******************************** Main ******************************** */
 
 main {
+  display: flex;
   padding: 180px 10px;
   margin: auto;
+  /* background: ; */
 }
 
-.form {
+.contact-form {
   display: flex;
+  padding: 20px 40px;
+  background: #fff;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -181,19 +183,8 @@ h1 {
   font-size: 1.5rem;
   padding-bottom: 10px;
 }
-.contact-form {
+.form {
   width: 80%;
-}
-label {
-  font-size: 0.9rem;
-  font-weight: 700;
-}
-input {
-  outline: none;
-  line-height: 1.5rem;
-  font-size: 1rem;
-  font-weight: 700;
-  background: #e3eee0;
 }
 
 .contact-field {
@@ -201,15 +192,70 @@ input {
   flex-direction: column;
   padding-top: 10px;
   font-size: 1.3rem;
+  position: relative;
+  width: 100%;
+}
+.contact-field label {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.contact-field input {
+  width: 100%;
+  outline: none;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  background: #e3eee0;
+  border: 2px solid #f0f0f0;
+  padding: 6px;
+}
+.contact-field input:focus {
+  outline: 0;
+  border-color: #777;
+}
+.contact-field.correct input {
+  border-color: #2ecc71;
+}
+
+.contact-field.error input {
+  border-color: #e74c3c;
+}
+
+.contact-field i {
+  visibility: hidden;
+  position: absolute;
+  top: 40px;
+  right: 5px;
+}
+
+.contact-field.correct i.bx-check-circle {
+  color: #2ecc71;
+  visibility: visible;
+}
+
+.contact-field.error i.bx-error-circle {
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.contact-field small {
+  color: #e74c3c;
+  visibility: hidden;
+}
+
+.contact-field.error small {
+  visibility: visible;
 }
 
 textarea {
+  width: 100%;
   resize: none;
   outline: none;
   font-size: 1rem;
   font-weight: 700;
-  border-top: 2px solid #000;
-  border-left: 2px solid #000;
+  border-top: 2px solid #777;
+  border-left: 2px solid #777;
   padding: 3px;
   color: #000;
   background-color: #e3eee0;
@@ -217,6 +263,10 @@ textarea {
   background-size: cover;
 }
 
+textarea:focus {
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
+}
 .bx-gender {
   flex-direction: row;
   align-items: center;
