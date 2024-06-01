@@ -1,13 +1,13 @@
 
 
-.logo{
+/* .logo{
   width: 90px; 
   height: 90px; 
   object-fit: cover; 
   margin-bottom: 10px;
-}
+} */
 
-header {
+/* header {
   
   background-color: #6ba36f;
   display: flex;
@@ -18,33 +18,35 @@ header {
   position: sticky;
   top: 0;
   width: 100%;
-}
+} */
 
 header img {
   border-radius: 11vh;
   width: 10%;
 }
 
-main {
+/* main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 80%;
-}
+} */
 
-nav {
+
+ nav.menu-header {
   display: flex;
   justify-content: space-between;
   width: 80%;
 }
+
 
 nav.menu-header div a p {
   align-self: center;
   color: black;
   text-decoration: none;
   text-transform: uppercase;
-}
+} 
 
 #menu2 {
   align-items: flex-end;
@@ -61,12 +63,11 @@ main {
   align-items: center;
 }
 
-div a , .imagen{
+ .item a, .imagen {
   display: flex;
   justify-content: center;
   margin-bottom: 2vh;
 }
-
 
 #contactanos2 {
   align-items: end;
@@ -93,7 +94,7 @@ div a , .imagen{
 
 img{
   border-radius: 30px;
-  width: 50%;
+  width: 100%;
   
 }
 

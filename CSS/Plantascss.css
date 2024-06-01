@@ -3,12 +3,12 @@
   font-weight: 800;
 } */
 
-.logo{
+/* .logo{
   width: 90px; 
   height: 90px; 
   object-fit: cover; 
   margin-bottom: 10px;
-}
+} */
 
 h2 {
   display: flex;
@@ -20,7 +20,7 @@ h2 {
   align-self: center;
 }
 
-header {
+/* header {
   
   background-color: #6ba36f;
   display: flex;
@@ -31,14 +31,14 @@ header {
   position: sticky;
   top: 0;
   width: 100%;
-}
+} */
 
-header img {
+/* header img {
   border-radius: 11vh;
   width: 10%;
-}
+} */
 
-nav {
+/* nav {
   display: flex;
   justify-content: space-between;
   width: 80%;
@@ -49,7 +49,7 @@ nav div a p {
   color: black;
   text-decoration: none;
   text-transform: uppercase;
-}
+} */
 
 main {
   padding: 180px 0px 0px;
@@ -70,14 +70,14 @@ padding: 2vh;
   width: 100%;
 }
 
-div a {
+/* div a {
   margin-left: 1vh;
-}
+} */
 
-#contactanos {
+/* #contactanos {
   align-items: end;
   display: flex;
-}
+} */
 
 .submenu {
   display: flex;
