@@ -45,31 +45,38 @@
       </div>
     </header>
     <main>
-      <div class="form">
+      <div id="contact-form" class="contact-form">
         <h1>Formulario de Contacto</h1>
 
-        <form id="contact-form" class="contact-form">
+        <form id="form" class="form">
           <div class="contact-field">
             <label for="name">Nombre:</label>
+            <!-- <div class="contact-field-input"> -->
             <input
+              class="input-name"
               type="text"
               id="name"
               name="name"
-              required
+              title="name"
               placeholder="  Andrew Collemans"
-              class="input-name"
             />
+            <i class="bx bx-check-circle"></i>
+            <i class="bx bx-error-circle"></i>
+            <!-- </div> -->
+            <small>Error message</small>
           </div>
           <div class="contact-field">
             <label for="email">Email:</label>
             <input
               class="input-email"
-              type="email"
+              type="text"
               id="email"
               name="email"
-              required
               placeholder="  contacto@gmail.com"
             />
+            <i class="bx bx-check-circle"></i>
+            <i class="bx bx-error-circle"></i>
+            <small>Error message</small>
           </div>
           <div class="contact-field">
             <label for="phone">Teléfono:</label>
@@ -77,14 +84,16 @@
               type="tel"
               id="phone"
               name="phone"
-              required
               placeholder="  555-555555"
               class="input-phone"
             />
+            <i class="bx bx-check-circle"></i>
+            <i class="bx bx-error-circle"></i>
+            <small>Error message</small>
           </div>
           <div class="contact-field">
             <label for="message">Mensaje:</label>
-            <textarea id="message" name="message" rows="10" required></textarea>
+            <textarea id="message" name="message" rows="10"></textarea>
           </div>
           <div class="contact-field bx-gender">
             <label for="gender">Género:</label>
@@ -106,15 +115,15 @@
           </div>
           <div class="contact-field">
             <label for="area" class="area">Departamento:</label>
-            <select id="area" name="area" required class="selection">
+            <select id="area" name="area" class="selection">
               <option value="">Seleccionar</option>
               <option value="seeds">Semillas</option>
               <option value="Plantas">Plantas</option>
             </select>
           </div>
-          <a href="#">
-            <button class="btn-enviar" type="submit">Enviar</button>
-          </a>
+          <!-- <a href="#"> -->
+          <button class="btn-enviar" type="submit">Enviar</button>
+          <!-- </a> -->
         </form>
       </div>
     </main>
